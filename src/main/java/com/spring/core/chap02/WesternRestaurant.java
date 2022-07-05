@@ -1,5 +1,12 @@
 package com.spring.core.chap02;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@Setter
+@Getter
 public class WesternRestaurant implements Restaurant {
 
     private Chef chef;
